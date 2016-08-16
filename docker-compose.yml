@@ -1,0 +1,12 @@
+elasticsearch:
+  build: elasticsearch
+  ports:
+    - 9200:9200
+kibana:
+  image: kibana
+  ports:
+    - 9204:5601
+  environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+  links:
+      - elasticsearch
