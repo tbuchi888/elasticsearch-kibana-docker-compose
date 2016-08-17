@@ -10,7 +10,8 @@ if you want to stop docker.
 
 `docker-comporse stop`
 
-## License and WITHOUT ANY WARRANTY
+## Caution 
+### License and WITHOUT ANY WARRANTY
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
