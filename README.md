@@ -1,14 +1,14 @@
 # elasticsearch-kibana-docker-compose
-Elasticsearch and Kibana docker-comporse.
+Elasticsearch and Kibana docker-compose.
 
 ```
 git clone https://github.com/tbuchi888/elasticsearch-kibana-docker-compose.git
 cd elasticsearch-kibana-docker-compose
-docker-comporse up -d
+docker-compose up -d
 ```
 if you want to stop docker.
 
-`docker-comporse stop`
+`docker-compose stop`
 
 ## Caution 
 ### License and WITHOUT ANY WARRANTY
